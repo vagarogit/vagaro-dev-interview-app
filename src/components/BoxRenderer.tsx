@@ -7,7 +7,7 @@ export default function BoxRenderer() {
 
 /*Replace Add your code here */
   return (
-    < div style={{width:"100vw",textAlign:"center"}}>
+    <div style={{width:"100vw",textAlign:"center"}}>
         <h1>Your Code Here</h1>
         <p>Use the API below to render a series of boxes</p>
         <a href={API_URL}>API URL</a>
