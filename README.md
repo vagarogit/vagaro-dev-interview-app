@@ -4,7 +4,15 @@
 2. npm install
 3. npm run dev
 
+
+
 ## Coding Challenge: Render and Manipulate Boxes 
+
+![](https://res.cloudinary.com/vagaro/image/upload/v1725903489/misc/wireframe-example_hfoqvh.png)
+
+Restrictions:
+
+While use of outside sources such as google and stack overflow is encouraged, we request that you do not use ChatGPT or similar chat bots for this challenge.
 
 Objective: Develop a react application that consumes data from an API and renders boxes on the screen based on the data's properties. These boxes should be interactive, allowing users to select and change their colors using a fixed menu/toolbar. 
 
@@ -33,3 +41,4 @@ The API at [https://reactinterviewwebapp-grazc9gvejc7g2au.eastus-01.azurewebsite
 
 4. **Interaction**:
 	- The color change should be applied in real-time, reflecting immediately on the selected box.
+
