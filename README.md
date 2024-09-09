@@ -26,6 +26,8 @@ The API at [https://reactinterviewwebapp-grazc9gvejc7g2au.eastus-01.azurewebsite
 - x: The X-coordinate for where the box should be placed on the screen (0 – 500). 
 - y: The Y-coordinate for where the box should be placed on the screen (0 – 500). 
 
+
+
 ### Requirements: 
 
 1. **Render Boxes**: 
@@ -42,3 +44,22 @@ The API at [https://reactinterviewwebapp-grazc9gvejc7g2au.eastus-01.azurewebsite
 4. **Interaction**:
 	- The color change should be applied in real-time, reflecting immediately on the selected box.
 
+```
+    /*you can use the following code to fetch the data*/
+   fetch("https://reactinterviewwebapp-grazc9gvejc7g2au.eastus-01.azurewebsites.net").then((response) => {
+            if(response.ok){
+                 response.json().then((data) => {
+              
+                    if(data.data){
+                        //successful parse, do something with data.data here
+                    }
+                    else{
+                        window.alert("Error parsing data");
+                    }
+                    
+                }).catch((error) => {
+                    window.alert("Error parsing data");
+                 });
+            }
+         }).catch((error) => {   window.alert("Error fetching data");});
+```
